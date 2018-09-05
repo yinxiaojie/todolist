@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+body{
+    background: #ACA092;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #323232;
+}
+.con{
+    width: 600px;
+    height: 50px;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+}
+.con>h2{
+    color: #fff;
+    line-height: 50px;
+    float: left;
+    font-weight: normal;
+}
+.con>input{
+    width: 360px;
+    height: 26px;
+    outline: none;
+    border: none;
+    text-indent: 1em;
+    float: right;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+section{
+    width: 600px;
+    height:100%;
+    /*background: darkgray;*/
+    margin:0  auto;
+    overflow: hidden;
+}
+section>.box{
+    width: 100%;
+    height: 60px;
+    /*background: red;*/
+}
+section>.box>h2{
+    width:600px;
+    height: 32px;
+    /*background: blue;*/
+    line-height: 32px;
+    margin: 14px 0;
+    float: left;
+}
+section>.box>h2>.box1{
+    float: right;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background: #cccccc;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.content{
+    width:600px;
+    height: 32px;
+    background: #fff;
+    border-radius: 5px;
+    border-left: 5px solid lime;
+    margin-bottom: 10px;
+}
+.concat{
+    width:600px;
+    height:100%;
+}
+.content>input{
+    width: 22px;
+    height: 22px;
+    margin-top: 6px;
+    margin-left: 10px;
+    float: left;
+}
+.content>p{
+    display: block;
+    width: 500px;
+    height: 32px;
+    margin-left: 10px;
+    float: left;
+    /*background: #ff6700;*/
+    line-height: 32px;
+}
+.content>.circle{
+    width: 22px;
+    height: 20px;
+    border: 2px solid #ccc;
+    float: right;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.before{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background:#ccc;
+    margin: 1px auto;
+    color: #fff;
+    text-align: center;
+}
+.content1{
+    border-color: blue;
+    background:rgba(0,0,255,0.1);
+}
